@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+
+}
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Heading Section */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* White Section */
+.white-section {
+  background-color: #fff;
+}
+
+/* Coloured Section */
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  margin-left: 0;
+  font-size: 50px;
+  font-weight: 600;
+}
+.row {
+  margin-top: 80px;
+}
+.navbar-nav > li {
+  font-family: "Ubuntu", sans-serif;
+  margin-left:35px;
+  margin-right:35px;
+  font-size: 20px;
+  padding: 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.tindog-img {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  transform: rotate(25deg);
+  right: 15%;
+}
+.download-button {
+  margin: 5% 3% 3% 0;
+}
+
+/* Features Section */
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+#features {
+  position: relative;
+  z-index: 1;
+  margin: auto;
+}
+.fas {
+  padding-bottom: 20px;
+  color: #ef8172;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 700;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  width: 100%;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  width: 100%;
+  padding: 60px 60px 100px 60px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1125px) {
+  #title {
+    text-align: center;
+  }
+  .tindog-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section */
+#cta {
+  padding-bottom: 70px;
+}
+.cta-header {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+.download-button2 {
+  margin: 50px 25px 0 25px;
+}
+
+/* Footer Section */
+#footer {
+  margin-bottom: 0;
+}
+.footer-icons {
+  color: black;
+  font-size: 25px;
+  margin: 8% 10px 0;
+}
+.footer-icons:hover {
+  color: #ff4c68;
+}
